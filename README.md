@@ -1,4 +1,3 @@
-Below is a README file template for your project, which appears to involve RAG (Retrieval-Augmented Generation), Chroma DB, and the LLM-3-70B model using GROQ. You can customize it further based on your project's specifics.
 
 ---
 
