@@ -1,0 +1,33 @@
+# Core dependencies
+python>=3.8
+
+# Vector database
+chromadb>=0.4.0
+
+# Language model and transformers
+transformers>=4.30.0
+torch>=2.0.0
+
+# GROQ API client (if applicable)
+groq>=0.1.0  # Replace with the correct package name if GROQ provides a Python SDK
+
+# Utility libraries
+numpy>=1.21.0
+pandas>=1.3.0
+tqdm>=4.62.0
+
+# API and web server (if applicable)
+fastapi>=0.85.0
+uvicorn>=0.19.0
+
+# Environment management
+python-dotenv>=0.19.0
+
+# Optional: FAISS for similarity search (if not using Chroma DB exclusively)
+faiss-cpu>=1.7.0  # Use faiss-gpu if GPU is available
+
+# Optional: Hugging Face datasets (if using pre-built datasets)
+datasets>=2.0.0
+
+# Optional: Logging and monitoring
+loguru>=0.6.0
